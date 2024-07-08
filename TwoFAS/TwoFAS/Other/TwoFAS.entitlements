@@ -6,7 +6,7 @@
 	<string>development</string>
 	<key>com.apple.developer.icloud-container-identifiers</key>
 	<array>
-		<string>iCloud.com.twofas.org.Vault</string>
+		<string>iCloud.rknightion.2fas</string>
 	</array>
 	<key>com.apple.developer.icloud-services</key>
 	<array>
@@ -16,11 +16,11 @@
 	<string>$(TeamIdentifierPrefix)$(CFBundleIdentifier)</string>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.twofas.com</string>
+		<string>group.rknightion</string>
 	</array>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>$(AppIdentifierPrefix)com.twofas.org</string>
+		<string>$(AppIdentifierPrefix)com.rknightion.org</string>
 	</array>
 </dict>
 </plist>

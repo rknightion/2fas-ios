@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8F7952532C01D1940053F776 /* KeyboardButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7952522C01D1940053F776 /* KeyboardButtonStyle.swift */; };
 		8F5C0C6C2BFFAC8A00D73ADE /* TwoFAS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8F5C0C6A2BFFAC8900D73ADE /* TwoFAS.xcdatamodeld */; };
 		8F5C0C6F2BFFACA900D73ADE /* Sync.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8F5C0C6D2BFFACA900D73ADE /* Sync.xcdatamodeld */; };
+		8F7952532C01D1940053F776 /* KeyboardButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7952522C01D1940053F776 /* KeyboardButtonStyle.swift */; };
 		C200E49E1FB3911B00D7C748 /* Storage.h in Headers */ = {isa = PBXBuildFile; fileRef = C200E49C1FB3911B00D7C748 /* Storage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C200E4A11FB3911B00D7C748 /* Storage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C200E49A1FB3911B00D7C748 /* Storage.framework */; };
 		C200E4A21FB3911B00D7C748 /* Storage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C200E49A1FB3911B00D7C748 /* Storage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -1876,9 +1876,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		8F7952522C01D1940053F776 /* KeyboardButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardButtonStyle.swift; sourceTree = "<group>"; };
 		8F5C0C6B2BFFAC8900D73ADE /* TwoFAS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TwoFAS.xcdatamodel; sourceTree = "<group>"; };
 		8F5C0C6E2BFFACA900D73ADE /* Sync.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sync.xcdatamodel; sourceTree = "<group>"; };
+		8F7952522C01D1940053F776 /* KeyboardButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardButtonStyle.swift; sourceTree = "<group>"; };
 		C200E49A1FB3911B00D7C748 /* Storage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Storage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C200E49C1FB3911B00D7C748 /* Storage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Storage.h; sourceTree = "<group>"; };
 		C200E49D1FB3911B00D7C748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -11666,7 +11666,7 @@
 				CURRENT_PROJECT_VERSION = 2;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEPLOYMENT_POSTPROCESSING = NO;
-				DEVELOPMENT_TEAM = ZY8UR5ADFW;
+				DEVELOPMENT_TEAM = D3CJ67Z95V;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = TwoFAS/Other/Info.plist;
@@ -11684,7 +11684,7 @@
 					"$(OTHER_LDFLAGS)",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.twofas.org;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rknightion.org;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -11711,7 +11711,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2;
 				DEPLOYMENT_POSTPROCESSING = YES;
-				DEVELOPMENT_TEAM = ZY8UR5ADFW;
+				DEVELOPMENT_TEAM = D3CJ67Z95V;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = TwoFAS/Other/Info.plist;
@@ -11728,7 +11728,7 @@
 					"$(OTHER_LDFLAGS)",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.twofas.org;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rknightion.org;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRIPFLAGS = "-rSTx";
